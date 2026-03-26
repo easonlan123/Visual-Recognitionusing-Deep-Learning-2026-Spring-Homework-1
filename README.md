@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 folder format:  
 folder  
-[tab] data  
+&emsp; data  
     train  
       100 classfolders  
     test  
