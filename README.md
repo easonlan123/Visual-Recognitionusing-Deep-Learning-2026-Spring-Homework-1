@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 # Training
 
-You will have to download best_model.pth from https://drive.google.com/file/d/1W5Uhz5gB_GPxXubUMzlxlO4LAEdoTtzU/view?usp=sharing or e3 first because my Git large file just doesn't seems to be working
+You will have to download best_model.pth from https://drive.google.com/file/d/1W5Uhz5gB_GPxXubUMzlxlO4LAEdoTtzU/view?usp=sharing or e3 first because my Git large file just doesn't seems to be working. 
 It will train the model then do one testing when it s done.
 
 ```bash
