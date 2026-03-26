@@ -22,10 +22,12 @@ pip install -r requirements.txt
 
 #Training
 
+It will train the model then do one testing when it s done.
+
 ```bash
 python model.py
 ```
-#Testing
+#Testing only
 
 Modify the epoch variable in model.py to 0, then
 
@@ -33,3 +35,7 @@ Modify the epoch variable in model.py to 0, then
 python model.py
 ```
 ---
+
+##Performance Snapshot
+
+leaderboard.png
