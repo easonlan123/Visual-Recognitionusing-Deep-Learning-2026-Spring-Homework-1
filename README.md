@@ -22,8 +22,18 @@ pip install -r requirements.txt
 
 # Training
 
-You will have to download best_model.pth from https://drive.google.com/file/d/1W5Uhz5gB_GPxXubUMzlxlO4LAEdoTtzU/view?usp=sharing or e3 first because my Git large file just doesn't seems to be working. 
-It will train the model then do one testing when it s done.
+folder format:
+folder
+  data
+    train
+      100 classfolders
+    test
+      test images
+    val
+      100 classfolders
+  model.py
+
+It will train the model then do one testing when it s done. You will have to download best_model.pth from https://drive.google.com/file/d/1W5Uhz5gB_GPxXubUMzlxlO4LAEdoTtzU/view?usp=sharing or e3 first because my Git large file just doesn't seems to be working. The testing process will have to ensure that it have the training data class folder in data folder in order to get the correct label. 
 
 ```bash
 python model.py
