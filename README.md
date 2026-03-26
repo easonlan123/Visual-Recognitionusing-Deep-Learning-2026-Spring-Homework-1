@@ -25,8 +25,8 @@ pip install -r requirements.txt
 folder format:  
 folder  
   > data  
-    train  
-      100 classfolders  
+    > train  
+      > 100 classfolders  
     test  
       test images  
     val  
