@@ -22,9 +22,9 @@ pip install -r requirements.txt
 
 # Training
 
-folder format:
+folder format:  
 folder  
-  data  
+  [Tab]data  
     train  
       100 classfolders  
     test  
